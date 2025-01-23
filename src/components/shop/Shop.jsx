@@ -83,7 +83,7 @@ function Shop() {
   return (
     <div className="container" id="shop-page">
       <h2>
-        <span></span>Our Works
+        <span></span>Latest Works
       </h2>
       <Swiper
         modules={[Pagination, Autoplay]}
@@ -114,7 +114,7 @@ function Shop() {
               }}
             >
               <img src={product.image} alt={product.title} />
-              <p> {product.productName}</p>
+              <p id="productionName"> {product.productName}</p>
               <div id="shop-card-price">
                 <p id="shop-card-priceB">{product.description}</p>
               </div>

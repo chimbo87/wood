@@ -1,19 +1,49 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Services.css";
 import building from "../../assets/building.jpeg";
 import project from "../../assets/project.jpeg";
 import renovation from "../../assets/renovation.jpeg";
 
 function Services() {
+  const serviceCardsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('animate-card');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+
+    serviceCardsRef.current.forEach(card => {
+      if (card) observer.observe(card);
+    });
+
+    return () => {
+      serviceCardsRef.current.forEach(card => {
+        if (card) observer.unobserve(card);
+      });
+    };
+  }, []);
+
   return (
     <>
       <div className="container-fluid" id="serives-page">
         <h2>Our Services</h2>
       </div>
       <div className="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4">
-            <div id="service-card">
+        <div className="row">
+          <div className="col-lg-4 col-md-4">
+            <div 
+              ref={el => serviceCardsRef.current[0] = el}
+              id="service-card"
+              className="service-card-hidden"
+            >
               <img src={building} alt="building" />
               <h6>New Construction</h6>
               <h4>YOUR DREAM OUR BLUEPRINT</h4>
@@ -31,8 +61,12 @@ function Services() {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="service-card">
+          <div className="col-lg-4 col-md-4">
+            <div 
+              ref={el => serviceCardsRef.current[1] = el}
+              id="service-card"
+              className="service-card-hidden"
+            >
               <img src={project} alt="project" />
               <h6>Project Management</h6>
               <h4>QUALITY YOU CAN TRUST</h4>
@@ -51,8 +85,84 @@ function Services() {
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
-            <div id="service-card">
+          <div className="col-lg-4 col-md-4">
+            <div 
+              ref={el => serviceCardsRef.current[2] = el}
+              id="service-card"
+              className="service-card-hidden"
+            >
+              <img src={renovation} alt="building" />
+              <h6>Renovations & Remodeling</h6>
+              <h4>BUILDING THE FUTURE TOGATHER</h4>
+              <p>
+                Whether you're looking to update your kitchen, expand your
+                living space, or transform an entire property, our renovations
+                and remodeling services bring new life to your space. We
+                understand that each renovation is unique, which is why we
+                collaborate closely with you to design solutions that align with
+                your vision, needs, and budget. Our skilled team ensures a
+                smooth process from concept to completion, combining innovation
+                with craftsmanship to create beautiful, functional spaces that
+                enhance both comfort and value. No matter the size or complexity
+                of the project, we are dedicated to delivering exceptional
+                results that stand the test of time.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4">
+            <div 
+              ref={el => serviceCardsRef.current[3] = el}
+              id="service-card"
+              className="service-card-hidden"
+            >
+              <img src={renovation} alt="building" />
+              <h6>Renovations & Remodeling</h6>
+              <h4>BUILDING THE FUTURE TOGATHER</h4>
+              <p>
+                Whether you're looking to update your kitchen, expand your
+                living space, or transform an entire property, our renovations
+                and remodeling services bring new life to your space. We
+                understand that each renovation is unique, which is why we
+                collaborate closely with you to design solutions that align with
+                your vision, needs, and budget. Our skilled team ensures a
+                smooth process from concept to completion, combining innovation
+                with craftsmanship to create beautiful, functional spaces that
+                enhance both comfort and value. No matter the size or complexity
+                of the project, we are dedicated to delivering exceptional
+                results that stand the test of time.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4">
+            <div 
+              ref={el => serviceCardsRef.current[4] = el}
+              id="service-card"
+              className="service-card-hidden"
+            >
+              <img src={renovation} alt="building" />
+              <h6>Renovations & Remodeling</h6>
+              <h4>BUILDING THE FUTURE TOGATHER</h4>
+              <p>
+                Whether you're looking to update your kitchen, expand your
+                living space, or transform an entire property, our renovations
+                and remodeling services bring new life to your space. We
+                understand that each renovation is unique, which is why we
+                collaborate closely with you to design solutions that align with
+                your vision, needs, and budget. Our skilled team ensures a
+                smooth process from concept to completion, combining innovation
+                with craftsmanship to create beautiful, functional spaces that
+                enhance both comfort and value. No matter the size or complexity
+                of the project, we are dedicated to delivering exceptional
+                results that stand the test of time.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-4">
+            <div 
+              ref={el => serviceCardsRef.current[5] = el}
+              id="service-card"
+              className="service-card-hidden"
+            >
               <img src={renovation} alt="building" />
               <h6>Renovations & Remodeling</h6>
               <h4>BUILDING THE FUTURE TOGATHER</h4>
@@ -74,12 +184,9 @@ function Services() {
         </div>
       </div>
       <div id="other-services-box" className="container">
-        <h2>
-          From residential to commercial projects, our expertise ensures every
-          build is strong and reliable.
-        </h2>
-        <div class="row">
-          <div class="col-lg-4 col-md-4">
+   
+        <div className="row">
+          <div className="col-lg-4 col-md-4">
             <div id="other-services-card">
               <h4>Infrastructure construction</h4>
               <ul>
@@ -93,7 +200,7 @@ function Services() {
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div className="col-lg-4 col-md-4">
             <div id="other-services-card">
               <h4>Residential construction</h4>
               <ul>
@@ -107,10 +214,9 @@ function Services() {
               </ul>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div className="col-lg-4 col-md-4">
             <div id="other-services-card">
               <h4>Industrial construction</h4>
-
               <ul>
                 <li> Factories</li>
                 <li>Warehouses</li>

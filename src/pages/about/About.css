@@ -27,7 +27,7 @@
   letter-spacing: 0.2rem;
 }
 #about-page-card h2 {
-  color: #f1975b;
+  color: antiquewhite;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -38,20 +38,20 @@
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  background-color: #f4d4a1;
+  background-color: #640606;
   padding: 10px;
   height: 500px;
  
 }
 
 #history-card h2 {
-  color: #d35907;
+  color: #faebd7;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
 }
 #history-card p{
-  color: #d35907;
+  color: #f9f5f0;
 }
 #history-cardB {
   display: flex;
@@ -72,7 +72,7 @@
   text-align: center;
 }
 #about-team-card h2 {
-  color: #f1975b;
+  color: #8a1818;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -98,7 +98,7 @@
   font-weight: 600;
 }
 #team-card h6 {
-  color: #1d2f61;
+  color: #808080;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -112,7 +112,7 @@
 #team-icons {
   margin: 0px 10px;
   font-size: 20px;
-  color: #f1975b;
+  color: #8a1818;
   cursor: pointer;
 }
 #about-page-box {
@@ -169,7 +169,7 @@
   border-radius: 4px;
 }
 #asked-qtns h2 {
-  color: #f1975b;
+  color: #8a1818;
   margin-top: 15px;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
@@ -185,7 +185,7 @@
   margin-top: 35px;
 }
 #blogs-section h2{
-  color: #f1975b;
+  color: #8a1818;
   text-align: center;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
@@ -198,7 +198,7 @@
   justify-content: start;
   border: 1px solid #dcdcdc;
   border-radius: 4px;
-  background-color: #f4d4a1;
+  background-color: #8a1818;
   height: 550px;
 }
 #blog-card img{
@@ -208,14 +208,14 @@ object-fit: cover;
 }
 #blog-card h4{
   text-align: center;
-  color: #d35907;
+  color: #faebd7;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
   margin-top: 10px;
 }
 #blog-card p{
-  color: #d35907;
+  color: #f9f5ee;
   text-align: center;
 }
 @media (max-width: 750px) {
@@ -244,7 +244,7 @@ object-fit: cover;
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    background-color: #f4d4a1;
+    background-color: #8a1818;
     padding: 10px;
     height: auto;
    
@@ -266,7 +266,7 @@ object-fit: cover;
     justify-content: center;
     border: 1px solid #dcdcdc;
     border-radius: 4px;
-    background-color: #f4d4a1;
+    background-color: #8a1818;
     height: auto;
   }
   #team-card {

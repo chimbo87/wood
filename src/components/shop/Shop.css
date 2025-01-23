@@ -24,9 +24,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+
   border-radius: 4px;
-  background-color: #640606;
+  background-color: #f1cd9d;
 }
 #shop-page-card img {
   width: 100%;
@@ -48,8 +49,11 @@
   font-style: italic;
   font-family: "Raleway", serif;
 }
+#productionName{
+  color: #640606;
+}
 #shop-card-priceB {
-  color: #fadad7;
+  color: #56100a;
   font-weight: 600;
   font-family: "Raleway", serif;
   cursor: pointer;
@@ -60,8 +64,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #1d2f61;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* border: 1px solid #1d2f61;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
     border-radius: 4px;
 
     margin: 8px 0px;
