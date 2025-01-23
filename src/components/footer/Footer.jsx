@@ -19,7 +19,7 @@ function Footer() {
               <GrLocation /> Address
             </h5>
             <p>
-              8 Hillside Road Braamfontein<br></br>1st Floor, Block B,<br></br>  Metropolitan ParkTown<br></br> Johannesburg
+              123 Test Road<br></br>Example City<br></br>  Test City<br></br> Johannesburg
             </p>
           </div>
         </div>
@@ -29,8 +29,9 @@ function Footer() {
               <HiOutlineMail /> Emails
             </h5>
             <p>
-              info@tshoshanegroup.co.za<br></br>
-              lesibaless@yahoo.co.za<br></br> 
+              info@elitecapentry.co.za<br></br>
+              info@elitecapentry.co.za<br></br> 
+              info@elitecapentry.co.za
             </p>
           </div>
         </div>
@@ -40,7 +41,7 @@ function Footer() {
               <MdOutlinePhone /> Phone
             </h5>
             <p>
-            +2761 318 3551<br></br> +2776 049 4736 <br></br>
+            +2700 000 0000<br></br>  +2700 000 0000 <br></br> +2700 000 0000
              
             </p>
           </div>
@@ -56,7 +57,7 @@ function Footer() {
         <div id="footer-rtys">
           <small>
             {" "}
-            &copy; TSHOSHANE GROUP 2025.
+            &copy; ELITECAPENTRY 2025.
         
           </small>
           <p style={{textAlign:"center", fontSize:"14px", color:"#f1975b53"}}>Crafted by: <a href="https://wa.me/27677366141" target="_blank" style={{color:"#f1975b53"}}>

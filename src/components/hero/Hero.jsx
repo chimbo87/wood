@@ -5,9 +5,9 @@ import "swiper/css";
 import { useNavigate } from "react-router-dom";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import banner01 from "../../assets/construction01.jpeg";
-import banner02 from "../../assets/construction02.jpeg";
-import banner03 from "../../assets/construction03.jpeg";
+import banner01 from "../../assets/wood03.jpeg";
+import banner02 from "../../assets/wood06.jpeg";
+import banner03 from "../../assets/wood07.jpeg";
 import "./Hero.css";
 
 function Hero() {
@@ -15,21 +15,21 @@ function Hero() {
   const slides = [
     {
       id: 1,
-      title: "Building the Future Together",
+      title: "Crafting Dreams, Building Realities",
       description:
-      "We create innovative and sustainable construction solutions to transform your vision into reality.",
+      " Expert woodworking that transforms your ideas into beautiful, lasting creations",
       image: banner02,
     },
     {
       id: 2,
-      title: "Quality You Can Trust",
-      description:  "From residential to commercial projects, our expertise ensures every build is strong and reliable.",
+      title: "Custom Solutions, Unmatched Quality",
+      description:  "Precision craftsmanship for kitchens, furniture, and unique woodwork projects.",
       image: banner01,
     },
     {
       id: 3,
-      title: "Your Dream, Our Blueprint",
-      description:  "Let us bring your ideas to life with precision, dedication, and unmatched craftsmanship.",
+      title: "Your Vision, Our Expertise",
+      description:  " Personalized carpentry services delivering exceptional results for every project",
       image: banner03,
     },
   ];

@@ -13,7 +13,7 @@
       #1d2f61a0,
       #343434f2
     ),
-    url("../../assets/project.jpeg");
+    url("../../assets/wood01.jpeg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
 }
 #testimony-top-innercard h2 {
   text-align: center;
-  color: #f1975b;
+  color: #ffff;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
@@ -55,14 +55,14 @@
   padding-left: 10px;
 }
 #testimony-top-innercardB ul li {
-  color: #f1975b;
+  color: #ffff;
   line-height: 5rem;
   font-weight: 700;
   font-size: 20px;
   list-style: none;
 }
 #testimony-top-innercardB ul li span{
-border: 2px solid #f1975b;
+border: 2px solid #ffff;
 padding: 20px;
 border-radius: 50%;
 margin-right: 10px;
@@ -106,7 +106,7 @@ margin-right: 10px;
   font-family: "Bebas Neue", serif;
   font-weight: 700;
   letter-spacing: 0.2rem;
-  color: #d35907;
+  color: #640606;
 }
 #testimonial-header h2 span {
   display: block;
@@ -123,7 +123,7 @@ margin-right: 10px;
   border-radius: 4px;
   margin: 0px 2px;
   height: 400px;
-  background-image: linear-gradient(to bottom, #f1975b, #f1975b);
+  background-image: linear-gradient(to bottom, #640606, #640606);
 }
 #testimonial-card-star {
   width: 100%;
@@ -166,7 +166,7 @@ margin-right: 10px;
         #1d2f61a0,
         #343434f2
       ),
-      url("../../assets/project.jpeg");
+      url("../../assets/wood01.jpeg");
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ margin-right: 10px;
   }
   #testimony-top-innercard h2 {
     text-align: center;
-    color: #f1975b;
+    color: #ffff;
     font-family: "Bebas Neue", serif;
     font-weight: 700;
     line-height: 2rem;
@@ -200,14 +200,14 @@ margin-right: 10px;
     font-weight: 700;
   }
   #testimony-top-innercardB ul li {
-    color: #f1975b;
+    color: #ffff;
     line-height: 4rem;
     font-weight: 700;
     font-size: 20px;
     list-style: none;
   }
   #testimony-top-innercardB ul li span{
-  border: 2px solid #f1975b;
+  border: 2px solid #ffff;
   padding: 10px;
   border-radius: 50%;
   margin-right: 10px;

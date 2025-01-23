@@ -16,20 +16,24 @@ function Offer() {
             <h5>Build Your Dreams</h5>
             <h1>Over 10 Years of Undefeated Successs</h1>
             <p>
-              For over a decade,<b>TSHOSHANE GROUP</b> has built a reputation for
-              delivering exceptional construction projects with unwavering
-              commitment and expertise. Our success is driven by our relentless
-              focus on quality, client satisfaction, and innovation. Throughout
-              the years, we have earned the trust of our clients by consistently
-              exceeding expectations and completing projects on time and within
-              budget. This track record of undefeated success is a testament to
-              our team's dedication to excellence and our ability to overcome
-              challenges, ensuring that every project is a lasting testament to
-              our craftsmanship and reliability.
+              For over a decade, our carpentry business has built a reputation
+              for delivering exceptional woodworking projects with unwavering
+              craftsmanship and expertise. Our success is driven by our
+              relentless focus on quality, client satisfaction, and innovative
+              design. Throughout the years, we have earned the trust of our
+              clients by consistently exceeding expectations and completing
+              custom woodwork on time and within budget. This track record of
+              undefeated success is a testament to our team's dedication to
+              excellence and our ability to transform raw wood into masterful
+              creations that showcase our skill and reliability.
             </p>
-            <button onClick={() => {
-                  navigate("/about");
-                }}>READ MORE</button>
+            <button
+              onClick={() => {
+                navigate("/about");
+              }}
+            >
+              READ MORE
+            </button>
           </div>
         </div>
         <div class="col-lg-6 col-md-4">

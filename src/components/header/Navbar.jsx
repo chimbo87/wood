@@ -5,10 +5,10 @@ import { IoLocation } from "react-icons/io5";
 import { FaFacebookF } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { TbBrandWhatsappFilled } from "react-icons/tb";
-import logo from "../../assets/shologo.png";
+import logo from "../../assets/capentrylogo.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { Link } from "react-router-dom"; // Add this import
+import { Link } from "react-router-dom"; 
 
 function Navbar() {
   const navigate = useNavigate();
@@ -38,20 +38,19 @@ function Navbar() {
       <div id="nav-top">
         <div id="nav-top-card">
           <small>
-            <MdEmail /> info@tshoshanegroup.co.za
+            <MdEmail /> info@elitecapentry.co.za
           </small>
         </div>
         <div id="nav-top-card">
           <small id="top-nav-add">
-            <IoLocation /> 8 Hillside Road 1st Floor, Block B, Metropolitan
-            ParkTown Johannesburg
+            <IoLocation /> 123 Example Road, Test Road . Example City
           </small>
         </div>
         <div id="nav-top-card">
           <small id="top-nav-add">
-            <FaPhoneAlt /> +2761 318 3551
+            <FaPhoneAlt /> +2700 000 0000
           </small>
-          <small id="top-nav-add">/ +2776 049 4736</small>
+          <small id="top-nav-add">/ +2700 000 0000</small>
         </div>
         <div id="nav-top-card">
           <FaFacebookF id="nav-top-cardicon" />{" "}
@@ -96,10 +95,10 @@ function Navbar() {
 
         <button
           className="chat-btn"
-          onClick={() => {
-            window.open("https://wa.me/27760494736", "_blank");
-            navigate("/quotation");
-          }}
+          // onClick={() => {
+          //   window.open("https://wa.me/27760494736", "_blank");
+          //   navigate("/quotation");
+          // }}
         >
           Get Quotation
         </button>

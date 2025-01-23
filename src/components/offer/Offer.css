@@ -6,7 +6,7 @@ margin-top: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #d35907;
+ background-color: #640606;
   padding: 20px 5px;
 height: auto;
 }
@@ -62,10 +62,10 @@ font-weight: 700;
 }
 #offer-inner-cardwrap p{
   font-weight: 400;
-  color: #d35907;
+  color: #640606;
   }
 #offer-inner-wrapicon{
-  color: #d35907;
+  color: #640606;
   font-size: 25px;
 }
 @media (max-width: 768px) {

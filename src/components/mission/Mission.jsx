@@ -17,7 +17,7 @@ function Mission() {
             <img src={building} alt="building" />
             <div id="mission-card-btn">
               {" "}
-              <h6>New Construction</h6> <button onClick={() => {
+              <h6>Skirting</h6> <button onClick={() => {
                   navigate("/services");
                 }}>Read more</button>
             </div>
@@ -28,7 +28,7 @@ function Mission() {
             <img src={project} alt="project" />
             <div id="mission-card-btn">
               {" "}
-              <h6>Project Management</h6> <button  onClick={() => {
+              <h6>Refurbishment</h6> <button  onClick={() => {
                   navigate("/services");
                 }}>Read more</button>
             </div>
@@ -39,7 +39,40 @@ function Mission() {
             <img src={renovation} alt="building" />
             <div id="mission-card-btn">
               {" "}
-              <h6>Renovations & Remodeling</h6> <button  onClick={() => {
+              <h6>Laminated Floor</h6> <button  onClick={() => {
+                  navigate("/services");
+                }}>Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div id="mission-card">
+            <img src={renovation} alt="building" />
+            <div id="mission-card-btn">
+              {" "}
+              <h6>Decking</h6> <button  onClick={() => {
+                  navigate("/services");
+                }}>Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div id="mission-card">
+            <img src={renovation} alt="building" />
+            <div id="mission-card-btn">
+              {" "}
+              <h6>Painting</h6> <button  onClick={() => {
+                  navigate("/services");
+                }}>Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div id="mission-card">
+            <img src={renovation} alt="building" />
+            <div id="mission-card-btn">
+              {" "}
+              <h6> Doors & Windows</h6> <button  onClick={() => {
                   navigate("/services");
                 }}>Read more</button>
             </div>
