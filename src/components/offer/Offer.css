@@ -80,5 +80,6 @@ font-weight: 700;
   #offer-card-box p span{
     color: #c6c0c0;
     display: none;
+    text-align: center;
     }
 }
