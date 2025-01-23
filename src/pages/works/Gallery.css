@@ -1,0 +1,49 @@
+#work-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 60vh;
+  background-image: linear-gradient(
+      to right,
+      #343434f2,
+      #1b1c209c,
+      #1b1c209c,
+      #343434f2
+    ),
+    url("../../assets/project.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#work-page h2 {
+  color: #faebd7;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+#our-work-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  border-radius: 4px;
+  margin-top: 20px;
+  background-color: #f4d4a1;
+}
+#our-work-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+}
+#our-work-card small{
+  font-weight: 700;
+  margin-left: 10px;
+  color:  #f1975b;
+}

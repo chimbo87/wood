@@ -1,0 +1,320 @@
+#about-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 60vh;
+  background-image: linear-gradient(
+      to right,
+      #343434f2,
+      #1b1c209c,
+      #1b1c209c,
+      #343434f2
+    ),
+    url("../../assets/project.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about-page h4 {
+  color: #faebd7;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+#about-page-card h2 {
+  color: #f1975b;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+#history-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  background-color: #f4d4a1;
+  padding: 10px;
+  height: 500px;
+ 
+}
+
+#history-card h2 {
+  color: #d35907;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+#history-card p{
+  color: #d35907;
+}
+#history-cardB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+#history-cardB img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+#about-page-card h3 {
+  color: #f1975b;
+  font-weight: 200;
+  font-family: "Raleway", serif;
+  text-align: center;
+}
+#about-team-card h2 {
+  color: #f1975b;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  margin-top: 25px;
+}
+#team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background-color: #dcdcdc38;
+}
+#team-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+#team-card p {
+  margin: 5px;
+  font-weight: 600;
+}
+#team-card h6 {
+  color: #1d2f61;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-top: 5px;
+}
+#team-card-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#team-icons {
+  margin: 0px 10px;
+  font-size: 20px;
+  color: #f1975b;
+  cursor: pointer;
+}
+#about-page-box {
+  margin-top: 20px;
+}
+#about-page-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#about-page-cardbanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  height: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url("../../assets/project.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+}
+#about-page-cardbanner h2 {
+  background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-weight: 600;
+  font-family: "Raleway", serif;
+  line-height: 2.9rem;
+}
+#about-page-cardbannercard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid #f1975b;
+  margin: 40px;
+  border-radius: 4px;
+}
+#asked-qtns {
+  margin-top: 25px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+}
+#asked-qtns h2 {
+  color: #f1975b;
+  margin-top: 15px;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+.accordion-button {
+  color: #1d2f61;
+  font-weight: 600;
+  font-family: "Raleway", serif;
+}
+#blogs-section{
+  margin-top: 35px;
+}
+#blogs-section h2{
+  color: #f1975b;
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+#blog-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background-color: #f4d4a1;
+  height: 550px;
+}
+#blog-card img{
+width: 100%;
+height: 250px;
+object-fit: cover;
+}
+#blog-card h4{
+  text-align: center;
+  color: #d35907;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  margin-top: 10px;
+}
+#blog-card p{
+  color: #d35907;
+  text-align: center;
+}
+@media (max-width: 750px) {
+  #about-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    height: 40vh;
+    background-image: linear-gradient(
+        to right,
+        #343434f2,
+        #1b1c209c,
+        #1b1c209c,
+        #343434f2
+      ),
+      url("../../assets/project.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #history-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    background-color: #f4d4a1;
+    padding: 10px;
+    height: auto;
+   
+  }
+  #history-cardB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+  }
+  #about-small {
+    display: none;
+  }
+  #blog-card{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background-color: #f4d4a1;
+    height: auto;
+  }
+  #team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    margin: 8px 0px;
+  }
+  #about-page-cardbanner h2 {
+    background: -webkit-linear-gradient(0deg, #fff, #f1975b, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Raleway", serif;
+    line-height: 2.5rem;
+  }
+  #about-page-cardbannercard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #f1975b;
+    border-radius: 4px;
+    background-color: #363635;
+  }
+  #about-page-cardbanner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../../assets/project.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 4px;
+  }
+}

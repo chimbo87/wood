@@ -1,0 +1,161 @@
+#serives-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 60vh;
+  background-image: linear-gradient(
+      to right,
+      #343434f2,
+      #1b1c209c,
+      #1b1c209c,
+      #343434f2
+    ),
+    url("../../assets/project.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#serives-page h2 {
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #faebd7;
+}
+
+#service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  border-radius: 4px;
+  margin-top: 15px;
+  background-color: #d35907;
+height: 700px;
+}
+#service-card h6{
+  margin-top: 10px;
+  color: #f4d4a1;
+  font-weight: 700;
+  text-align: center;
+}
+#service-card h4{
+  color: #f4d4a1;
+  font-weight: 200;
+  text-align: center;
+  font-family: "Raleway", serif;
+}
+#service-card p{
+text-align: center;
+margin: 8px;
+color: #faebd7;
+}
+#service-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px 4px 0px 0px;
+}
+#other-services-box {
+  margin-top: 20px;
+  border-radius: 4px;
+  padding: 50px 20px;
+  height: auto;
+  background-image: linear-gradient(
+      to right,
+      #343434f2,
+      #1d2f619c,
+      #1d2f61a0,
+      #343434f2
+    ),
+    url("../../assets/project.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#other-services-box h2 {
+  font-weight: 700;
+  font-family: "Raleway", serif;
+  color: #f4d4a1;
+  text-align: center;
+
+}
+#other-services-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 20px 0px;
+  background-color: #d35907;
+  border-radius: 4px;
+}
+#other-services-card h4{
+  color: #edb760;
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+#other-services-card ul li {
+  color: #f7e6cc;
+  line-height: 2.2rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (max-width: 750px) {
+  #serives-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   padding-top: 100px;
+    height: 40vh;
+    background-image: linear-gradient(
+        to right,
+        #343434f2,
+        #1b1c209c,
+        #1b1c209c,
+        #343434f2
+      ),
+      url("../../assets/project.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #other-services-box {
+    margin-top: 20px;
+    border-radius: 4px;
+    height: auto;
+    background-image: linear-gradient(
+        to right,
+        #343434f2,
+        #1d2f619c,
+        #1d2f61a0,
+        #343434f2
+      ),
+      url("../../assets/project.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #service-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 4px;
+    margin-top: 15px;
+    background-color: #d35907;
+  height: auto;
+  }
+}

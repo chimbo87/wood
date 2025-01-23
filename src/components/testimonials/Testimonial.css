@@ -1,0 +1,215 @@
+#testimony-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 20px;
+  border-radius: 4px;
+  height: 60vh;
+  background-image: linear-gradient(
+      to right,
+      #343434f2,
+      #1d2f619c,
+      #1d2f61a0,
+      #343434f2
+    ),
+    url("../../assets/project.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#testimony-top-card {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 100%;
+}
+#testimony-top-innercard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#testimony-top-innercard button {
+  padding: 12px 20px;
+  border: none;
+  background-color: #faebd7;
+  color: #f1975b;
+  font-weight: 700;
+}
+#testimony-top-innercard h2 {
+  text-align: center;
+  color: #f1975b;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  line-height: 4rem;
+  margin-left: 10px;
+}
+#testimony-top-innercardB {
+  padding-left: 10px;
+}
+#testimony-top-innercardB ul li {
+  color: #f1975b;
+  line-height: 5rem;
+  font-weight: 700;
+  font-size: 20px;
+  list-style: none;
+}
+#testimony-top-innercardB ul li span{
+border: 2px solid #f1975b;
+padding: 20px;
+border-radius: 50%;
+margin-right: 10px;
+}
+#testimonial-header {
+  margin-top: 50px;
+}
+#testimonial-offer {
+  border: 4px solid transparent;
+  border-image: linear-gradient(to right, #1d2f61, #f1975b, #1d2f61) 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0px;
+  padding: 30px;
+}
+#testimonial-offer h4 {
+  background: -webkit-linear-gradient(0deg, #1d2f61, #f1975b, #1d2f61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 25px;
+}
+#testimonial-offer p {
+  color: #1d2f61;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Raleway", serif;
+}
+#testimonial-offer-icon {
+  color: #1d2f61;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#testimonial-header h2 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Bebas Neue", serif;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  color: #d35907;
+}
+#testimonial-header h2 span {
+  display: block;
+  background-color: #808080;
+  width: 50px;
+  margin-right: 8px;
+  height: 4px;
+}
+#testimonial-header p {
+  color: #3a3a3a;
+  text-align: center;
+}
+#testimonial-card {
+  border-radius: 4px;
+  margin: 0px 2px;
+  height: 400px;
+  background-image: linear-gradient(to bottom, #f1975b, #f1975b);
+}
+#testimonial-card-star {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#testimonial-card p {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Raleway", serif;
+}
+#testimonial-card-user {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#testimonial-card-user h5 {
+  color: antiquewhite;
+  font-family: "Raleway", serif;
+}
+#testimonial-rate-star {
+  color: #fff;
+  font-size: 20px;
+}
+@media (max-width: 750px) {
+  #testimony-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 20px;
+    height: auto;
+    background-image: linear-gradient(
+        to right,
+        #343434f2,
+        #1d2f619c,
+        #1d2f61a0,
+        #343434f2
+      ),
+      url("../../assets/project.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #testimony-top-innercard {
+    border-bottom: 1px solid antiquewhite;
+  }
+  #testimony-top-innercard h2 {
+    text-align: center;
+    color: #f1975b;
+    font-family: "Bebas Neue", serif;
+    font-weight: 700;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    margin-left: 10px;
+    
+  }
+  #testimonial-card p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", serif;
+  }
+  #testimony-top-innercard button {
+    padding: 12px 20px;
+    margin: 20px 0px;
+    border: none;
+    background-color: #faebd7;
+    color: #3a3a3a;
+    font-weight: 700;
+  }
+  #testimony-top-innercardB ul li {
+    color: #f1975b;
+    line-height: 4rem;
+    font-weight: 700;
+    font-size: 20px;
+    list-style: none;
+  }
+  #testimony-top-innercardB ul li span{
+  border: 2px solid #f1975b;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  }
+}
