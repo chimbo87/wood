@@ -22,10 +22,10 @@ function Offer() {
               relentless focus on quality, client satisfaction, and innovative
               design. Throughout the years, we have earned the trust of our
               clients by consistently exceeding expectations and completing
-              custom woodwork on time and within budget. This track record of
+              custom woodwork on time and within budget. <span>This track record of
               undefeated success is a testament to our team's dedication to
               excellence and our ability to transform raw wood into masterful
-              creations that showcase our skill and reliability.
+              creations that showcase our skill and reliability.</span>
             </p>
             <button
               onClick={() => {

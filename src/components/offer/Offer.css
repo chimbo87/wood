@@ -77,4 +77,8 @@ font-weight: 700;
     justify-content: center;
   margin-top: 15px;
   }
+  #offer-card-box p span{
+    color: #c6c0c0;
+    display: none;
+    }
 }

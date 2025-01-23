@@ -34,7 +34,8 @@
   border-radius: 4px;
   margin-top: 15px;
   background-color: #8a1818;
-height: 550px;
+height: auto;
+padding-bottom: 8px;
 }
 #service-card h6{
   margin-top: 10px;
