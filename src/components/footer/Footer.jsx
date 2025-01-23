@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import { GrLocation } from "react-icons/gr";
 import { HiOutlineMail } from "react-icons/hi";
+import { LuBriefcaseBusiness } from "react-icons/lu";
 import { MdOutlinePhone } from "react-icons/md";
 import { FiFacebook } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
@@ -13,7 +14,7 @@ function Footer() {
     <div className="container-fluid" id="footer-page">
       <h4>Get In Touch With Us</h4>
       <div class="row">
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
               <GrLocation /> Address
@@ -23,7 +24,7 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
               <HiOutlineMail /> Emails
@@ -35,13 +36,24 @@ function Footer() {
             </p>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-3 col-md-4">
           <div id="footer-page-card">
             <h5>
               <MdOutlinePhone /> Phone
             </h5>
             <p>
             +2700 000 0000<br></br>  +2700 000 0000 <br></br> +2700 000 0000
+             
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4">
+          <div id="footer-page-card">
+            <h5>
+            <LuBriefcaseBusiness /> Our Services
+            </h5>
+            <p>
+            Skirting<br></br>  Refurbishment<br></br> Laminated Floors<br></br>Doors & Windows
              
             </p>
           </div>

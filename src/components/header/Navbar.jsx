@@ -95,10 +95,12 @@ function Navbar() {
 
         <button
           className="chat-btn"
-          // onClick={() => {
-          //   window.open("https://wa.me/27760494736", "_blank");
-          //   navigate("/quotation");
-          // }}
+          onClick={() =>
+            window.open(
+              "https://wa.me/27681159944?text=Hello%20ELITECAPENTRY,%20I%20would%20like%20to%20enquire%20about%20your%20services",
+              "_blank"
+            )
+          }
         >
           Get Quotation
         </button>

@@ -18,42 +18,42 @@ const testimonials = [
     name: "Sarah Jaiors",
     role: "Tembisa",
     quote:
-      "We couldn’t be happier with the transformation of our home! From the initial design to the final touches, the team at [Your Company Name] worked with us every step of the way. Their professionalism, attention to detail, and commitment to quality exceeded our expectations. We would highly recommend them to anyone looking for reliable and skilled builders",
+      "From start to finish, the team at ELITE CAPENTRY delivered an outstanding renovation. Their expertise in cabinetry and attention to detail transformed our kitchen into a space we absolutely love. We couldn’t be more pleased!",
     rating: 5,
   },
   {
     name: "Michael Musi",
     role: "Soweto",
     quote:
-      "As a business owner, I needed a construction team that understood the importance of both functionality and aesthetics. [Your Company Name] delivered a commercial space that reflects my brand and serves our needs perfectly. The project was completed on time and within budget, and we couldn’t be more satisfied with the final result",
+      "Working with ELITE CAPENTRY was such a smooth experience. They were always on time, listened to our needs, and provided expert advice. The quality of their work exceeded our expectations. Highly recommended!",
     rating: 4,
   },
   {
     name: "Emily Tinashe",
     role: "Durban",
     quote:
-      "Our renovation project was a huge success, and we owe it all to the amazing team at [Your Company Name]. They took our vision and turned it into a reality, enhancing both the look and functionality of our home. Their dedication to quality work and customer service made all the difference. We’re so glad we chose them for this important project",
+      "We hired ELITE CAPENTRY to build a custom deck for our backyard, and the result is stunning. The team’s craftsmanship and professionalism made the entire process easy and enjoyable. Our family is enjoying the outdoor space every day!",
     rating: 5,
   },
   {
     name: "David Smith",
     role: "Cape Town",
     quote:
-      "Working with TSHOSHANE GROUP has been a game-changer for our development projects. Their project management skills and expertise in construction are unmatched. They consistently meet deadlines and deliver top-notch results. We’ve partnered on several projects and look forward to many more successful collaborations in the future.",
+      "From custom shelving to our new staircase, ELITE CAPENTRY brought our ideas to life with exceptional quality. The team was friendly, reliable, and truly cares about the details. We’re so happy with the final results",
     rating: 4,
   },
   {
     name: "Lisa Tumi",
     role: "Protoria",
     quote:
-      "The team at TSHOSHANE GROUP turned our dream home into a reality. They listened to our ideas, provided expert advice, and executed the plan perfectly. The level of care and attention to detail they put into our project was outstanding. We can’t thank them enough for creating such a beautiful space for our family",
+      "ELITE CAPENTRY did an amazing job renovating our home office with custom carpentry. Their skill and passion for their work really showed, and we couldn’t be happier with the end result. Thank you for transforming our space!",
     rating: 5,
   },
   {
     name: "James Banda",
     role: "North West",
     quote:
-      "I’ve worked with many construction companies over the years, but none have impressed me like TSHOSHANE GROUP. Their ability to bring architectural designs to life while maintaining the highest standards of quality is truly remarkable. I always recommend them to my clients, knowing they will deliver exceptional results.",
+      "Working with ELITE CAPENTRY was such a smooth experience. They were always on time, listened to our needs, and provided expert advice. The quality of their work exceeded our expectations. Highly recommended!",
     rating: 4,
   },
 ];
@@ -70,7 +70,6 @@ function Testimonial() {
                   We create innovative and sustainable construction solutions to
                   transform your vision into reality.
                 </h2>
-             
               </div>
             </div>
             <div class="col-lg-6 col-md-4">

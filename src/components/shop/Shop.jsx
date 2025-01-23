@@ -1,14 +1,14 @@
 import React from "react";
 import "./Shop.css";
-import work01 from "../../assets/project.jpeg";
-import work02 from "../../assets/work01.jpeg";
-import work03 from "../../assets/work02.jpeg";
-import work04 from "../../assets/work04.jpeg";
-import work05 from "../../assets/work05.jpeg";
-import work06 from "../../assets/work06.jpeg";
-import work07 from "../../assets/project.jpeg";
-import work08 from "../../assets/renovation.jpeg";
-import work09 from "../../assets/building.jpeg";
+import work01 from "../../assets/wood08.jpeg";
+import work02 from "../../assets/wood09.jpeg";
+import work03 from "../../assets/wood10.jpeg";
+import work04 from "../../assets/wood11.jpeg";
+import work05 from "../../assets/wood12.jpeg";
+import work06 from "../../assets/wood13.jpeg";
+import work07 from "../../assets/wood14.jpeg";
+import work08 from "../../assets/wood15.jpeg";
+import work09 from "../../assets/wood16.jpeg";
 
 import { useNavigate } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
@@ -27,7 +27,7 @@ function Shop() {
     {
       id: 1,
       image: work01, // Use the imported image
-      productName: "Project management",
+      productName: "Skirting",
       price: 6.99,
       oldPrice: 8.99,
       description: "Bramfointain~ Johannesburg",
@@ -35,7 +35,7 @@ function Shop() {
     {
       id: 2,
       image: work02,
-      productName: "Double Storey Construction",
+      productName: "Laminating Floor",
       price: 5.99,
       oldPrice: 12.0,
       description:
@@ -44,7 +44,7 @@ function Shop() {
     {
       id: 3,
       image: work03, // Use the imported image
-      productName: "DrainageConstruction",
+      productName: "Decking",
       price: 12.99,
       oldPrice: 20.0,
       description:
@@ -53,7 +53,7 @@ function Shop() {
     {
       id: 4,
       image: work04, // Use the imported image
-      productName: "Bridge Construction",
+      productName: "Wooden Door",
       price: 15.99,
       oldPrice: 10.0,
       description:
@@ -62,7 +62,7 @@ function Shop() {
     {
       id: 5,
       image: work05, // Use the imported image
-      productName: "Road Pavement",
+      productName: "Wooden Kichen Unit",
       price: 124.0,
       oldPrice: 150.3,
       description:
@@ -71,7 +71,34 @@ function Shop() {
     {
       id: 6,
       image: work06, // Use the imported image
-      productName: "House Renovation",
+      productName: "Bath Room Cardboads",
+      price: 5.5,
+      oldPrice: 8.9,
+      description:
+        "Rivonia, Sandton",
+    },
+    {
+      id: 7,
+      image: work07, // Use the imported image
+      productName: "Wooden Chairs",
+      price: 5.5,
+      oldPrice: 8.9,
+      description:
+        "Rivonia, Sandton",
+    },
+    {
+      id: 8,
+      image: work08, // Use the imported image
+      productName: "Wooden Floor",
+      price: 5.5,
+      oldPrice: 8.9,
+      description:
+        "Rivonia, Sandton",
+    },
+    {
+      id: 9,
+      image: work09, // Use the imported image
+      productName: "Wooden Window",
       price: 5.5,
       oldPrice: 8.9,
       description:

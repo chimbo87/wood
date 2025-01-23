@@ -1,7 +1,10 @@
 import React from "react";
-import building from "../../assets/building.jpeg";
-import project from "../../assets/project.jpeg";
-import renovation from "../../assets/renovation.jpeg";
+import building from "../../assets/wood08.jpeg";
+import project from "../../assets/renovation.jpeg";
+import renovation from "../../assets/wood09.jpeg";
+import decking from "../../assets/wood10.jpeg";
+import doorswindows from "../../assets/wood11.jpeg";
+import painting from "../../assets/wood09.jpeg";
 import { useNavigate } from "react-router-dom";
 import "./Mission.css";
 
@@ -36,7 +39,7 @@ function Mission() {
         </div>
         <div class="col-lg-4 col-md-4">
           <div id="mission-card">
-            <img src={renovation} alt="building" />
+            <img src={painting} alt="building" />
             <div id="mission-card-btn">
               {" "}
               <h6>Laminated Floor</h6> <button  onClick={() => {
@@ -47,7 +50,7 @@ function Mission() {
         </div>
         <div class="col-lg-4 col-md-4">
           <div id="mission-card">
-            <img src={renovation} alt="building" />
+            <img src={decking} alt="building" />
             <div id="mission-card-btn">
               {" "}
               <h6>Decking</h6> <button  onClick={() => {
@@ -69,7 +72,7 @@ function Mission() {
         </div>
         <div class="col-lg-4 col-md-4">
           <div id="mission-card">
-            <img src={renovation} alt="building" />
+            <img src={doorswindows} alt="building" />
             <div id="mission-card-btn">
               {" "}
               <h6> Doors & Windows</h6> <button  onClick={() => {

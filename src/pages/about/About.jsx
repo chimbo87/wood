@@ -1,10 +1,10 @@
 import React from "react";
-import aboutus from "../../assets/blog02.jpeg";
+import aboutus from "../../assets/wood04.jpeg";
 import person01 from "../../assets/person.jpeg";
 import person02 from "../../assets/person02.jpeg";
-import blog01 from "../../assets/blog01.jpeg";
-import blog02 from "../../assets/blog03.jpeg";
-import blog03 from "../../assets/blog04.jpeg";
+import blog01 from "../../assets/wood12.jpeg";
+import blog02 from "../../assets/wood17.jpeg";
+import blog03 from "../../assets/wood23.jpeg";
 import { MdOutlinePhone } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { MdOutlineMail } from "react-icons/md";
@@ -16,44 +16,35 @@ function About() {
       <div className="container-fluid" id="about-page">
         <h4>About Us</h4>
       </div>
-      <div className="container" id="about-page-box">
-        {/* <div id="about-page-card">
-          <h2>Who Are We ?</h2>
-          <h3>
-            We believe in building with precision and attention to detail. Every
-            project we undertake is guided by our commitment to superior
-            craftsmanship and the highest industry standards.
-          </h3>
-        </div> */}
-      </div>
+      <div className="container" id="about-page-box"></div>
       <div className="container">
         <div class="row">
           <div class="col-lg-6 col-md-4">
             <div id="history-card">
               <h2>Who Are We ?</h2>
               <p>
-                At <b>TSHOSHANE GROUP</b>, we are a team of dedicated
-                professionals with a passion for building and transforming
-                spaces. With years of experience in the construction industry,
-                we specialize in delivering high-quality residential,
-                commercial, and custom projects that meet the unique needs of
-                our clients. Our approach is rooted in collaboration,
-                innovation, and craftsmanship, ensuring that each project
-                reflects our commitment to excellence. Whether we’re building
-                from the ground up or renovating an existing space, we bring the
-                same level of dedication and attention to detail, making sure
-                that every job is done right.
+                At <b>ELITECAPENTRY</b>, we are a team of skilled carpenters
+                with a passion for crafting and transforming spaces. With years
+                of experience in the carpentry industry, we specialize in
+                creating high-quality, custom woodwork for residential and
+                commercial projects that meet the unique needs of our clients.
+                Our approach combines traditional craftsmanship with modern
+                techniques, ensuring that every project reflects our commitment
+                to excellence. Whether we're building bespoke furniture,
+                installing intricate woodwork, or renovating existing spaces, we
+                bring the same dedication and attention to detail to every job.
               </p>
               <p>
                 Our core values of integrity, reliability, and customer
-                satisfaction are the foundation of everything we do. We believe
-                that strong communication, transparency, and a client-centered
-                approach are key to successful project delivery. From initial
-                consultation to the final touches, we work closely with you at
-                every stage to ensure that your vision becomes a reality.At{" "}
-                <b>TSHOSHANE GROUP</b>, we pride ourselves on creating lasting
-                relationships with our clients, built on trust and the
-                successful completion of projects that stand the test of time.
+                satisfaction guide everything we do. We believe that clear
+                communication, transparency, and a client-focused approach are
+                essential to the successful delivery of each project. From the
+                initial consultation to the finishing touches, we collaborate
+                closely with you at every step to make sure your vision is
+                brought to life. At <b>ELITECAPENTRY</b>, we take pride in
+                building lasting relationships with our clients, founded on
+                trust and the successful completion of high-quality carpentry
+                projects that stand the test of time.
               </p>
             </div>
           </div>
@@ -64,16 +55,6 @@ function About() {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <div id="about-page-cardbanner">
-          <div id="about-page-cardbannercard">
-            <h2>
-              We understand that time is of the essence, which is why we
-              prioritize timely completion without compromising quality.
-            </h2>
-          </div>
-        </div>
-      </div> */}
 
       <div className="container" id="about-team-card">
         <h2>Meet Our Team Of Experts</h2>
@@ -81,7 +62,7 @@ function About() {
           <div class="col-lg-4 col-md-4">
             <div id="team-card">
               <img src={person01} alt="person" />
-              <h6>Civil Engineer</h6>
+              <h6> Engineer</h6>
               <div id="team-card-icons">
                 <MdOutlinePhone id="team-icons" />
                 <AiOutlineWhatsApp id="team-icons" />
@@ -130,7 +111,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseOne"
               >
-                Expertise and Experience
+                Expert Craftsmanship
               </button>
             </h2>
             <div
@@ -139,13 +120,10 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body" style={{ color: "#f1975b" }}>
-                With years of hands-on experience in the construction industry,
-                our team brings a wealth of knowledge to every project. We’ve
-                successfully completed a wide range of residential, commercial,
-                and custom-built constructions, allowing us to understand the
-                unique needs of every client and deliver results that exceed
-                expectations. Our experience ensures that your project is in
-                safe hands, from initial design to final completion.
+                With years of experience in carpentry, our skilled craftsmen
+                bring precision, care, and expertise to every project. We take
+                pride in creating custom woodwork that’s built to last and
+                designed to enhance the beauty and functionality of your space.
               </div>
             </div>
           </div>
@@ -159,7 +137,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseTwo"
               >
-                Commitment to Quality
+                Tailored Solutions
               </button>
             </h2>
             <div
@@ -168,13 +146,10 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body" style={{ color: "#f1975b" }}>
-                We believe in building with precision and attention to detail.
-                Every project we undertake is guided by our commitment to
-                superior craftsmanship and the highest industry standards.
-                Whether it’s the materials we choose or the finishing touches,
-                we don’t compromise on quality. Our goal is to ensure your
-                project is not only functional but built to last, offering value
-                for years to come.
+                Every project is unique, and we specialize in providing tailored
+                solutions that meet your specific needs and preferences. Whether
+                it’s a bespoke furniture piece or a full renovation, we work
+                closely with you to bring your vision to life.
               </div>
             </div>
           </div>
@@ -189,7 +164,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseThree"
               >
-                Customer-Centered Approach
+                High-Quality Materials
               </button>
             </h2>
             <div
@@ -198,12 +173,10 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body" style={{ color: "#f1975b" }}>
-                At TSHOSHANE GROUP, you’re more than just a client — you’re a
-                partner. We work closely with you throughout every step of the
-                project, listening to your ideas, providing expert advice, and
-                ensuring that your vision comes to life. Our transparent
-                communication and collaborative process guarantee that we meet
-                your needs and exceed your expectations at every stage.
+                We only use the finest materials in every project to ensure
+                durability, safety, and aesthetic appeal. Our commitment to
+                quality means that your woodwork will not only look great but
+                also stand the test of time.
               </div>
             </div>
           </div>
@@ -218,7 +191,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseFour"
               >
-                Timely Project Delivery
+                Attention to Detail
               </button>
             </h2>
             <div
@@ -227,13 +200,10 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body" style={{ color: "#f1975b" }}>
-                We understand that time is of the essence, which is why we
-                prioritize timely completion without compromising quality. Our
-                project management team meticulously plans, coordinates, and
-                monitors progress to ensure that all milestones are met on time.
-                We strive to keep projects on track and within budget,
-                minimizing delays and maximizing efficiency for a stress-free
-                construction experience
+                We understand that it’s the little things that make a big
+                difference. From precise measurements to flawless finishes, we
+                pay attention to every detail to ensure your project exceeds
+                expectations.
               </div>
             </div>
           </div>
@@ -248,7 +218,7 @@ function About() {
                 aria-expanded="false"
                 aria-controls="flush-collapseFive"
               >
-                Integrity and Transparency
+                Reliable and Professional Service
               </button>
             </h2>
             <div
@@ -257,13 +227,10 @@ function About() {
               data-bs-parent="#accordionFlushExample"
             >
               <div class="accordion-body" style={{ color: "#f1975b" }}>
-                Honesty and transparency are the pillars of our business. From
-                the first consultation to the final inspection, we keep you
-                informed at every stage of the process. You can rely on us to
-                provide clear, accurate pricing, honest advice, and detailed
-                timelines. We value trust and integrity, ensuring that there are
-                no hidden surprises, and we stand by our work with a commitment
-                to customer satisfaction
+                At ELITECAPENTRY, we pride ourselves on being punctual,
+                professional, and dependable. You can count on us to complete
+                your project on time, within budget, and with minimal disruption
+                to your daily life
               </div>
             </div>
           </div>
@@ -275,48 +242,40 @@ function About() {
           <div class="col-md-lg col-md-4">
             <div id="blog-card">
               <img src={blog02} alt="aboutbanner" />
-              <h4>
-                How to Choose the Right Foundation Type for Your Home Project
-              </h4>
+              <h4>The Importance of Quality Carpentry in Home Renovations</h4>
               <p>
-                By understanding soil conditions, climate factors, and building
-                requirements, homeowners can make informed decisions about their
-                foundation type. This guide explores the pros and cons of common
-                foundation options including slab, crawl space, and basement
-                foundations, helping you understand which option best suits your
-                specific construction needs and budget constraints.
+                When renovating your home, quality carpentry can make all the
+                difference. In this blog, we’ll discuss why choosing skilled
+                carpenters for your renovation project is crucial to achieving
+                lasting results. From structural integrity to aesthetic appeal,
+                discover how professional carpentry ensures your renovations
+                stand the test of time.
               </p>
             </div>
           </div>
           <div class="col-md-lg col-md-4">
             <div id="blog-card">
               <img src={blog01} alt="aboutbanner" />
-              <h4>Essential Safety Protocols for Modern Construction Sites</h4>
+              <h4>How to Care for Your Custom Woodwork</h4>
               <p>
-                With construction technology advancing rapidly, safety measures
-                must evolve to protect workers and ensure project success. From
-                AI-powered monitoring systems to advanced personal protective
-                equipment and automated risk assessment tools, modern
-                construction sites are implementing comprehensive safety
-                protocols that go beyond basic compliance to create truly secure
-                work environments.
+                Proper care can ensure your custom woodwork lasts for years to
+                come. In this blog, we’ll share essential tips on cleaning,
+                maintaining, and preserving your wooden furniture and
+                installations. Learn how to protect your investment and keep
+                your carpentry looking as good as new.
               </p>
             </div>
           </div>
           <div class="col-md-lg col-md-4">
             <div id="blog-card">
               <img src={blog03} alt="aboutbanner" />
-              <h4>
-                Top 5 Sustainable Building Materials Revolutionizing
-                Construction in 2025
-              </h4>
+              <h4>The Benefits of Bespoke Carpentry for Your Home</h4>
               <p>
-                The construction industry is embracing eco-friendly innovations
-                like never before. From engineered wood products that sequester
-                carbon to recycled steel and bio-based insulation materials,
-                these sustainable alternatives are not only better for the
-                environment but often offer superior performance and long-term
-                cost savings compared to traditional materials.
+                Wondering if custom carpentry is right for you? In this post,
+                we’ll highlight the advantages of bespoke woodwork, including
+                unique designs, space optimization, and personalized
+                craftsmanship. Discover why more homeowners are choosing custom
+                carpentry to elevate their living spaces.
               </p>
             </div>
           </div>

@@ -47,3 +47,25 @@
   margin-left: 10px;
   color:  #f1975b;
 }
+@media (max-width: 750px) {
+  #work-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    height: 40vh;
+    background-image: linear-gradient(
+        to right,
+        #343434f2,
+        #1b1c209c,
+        #1b1c209c,
+        #343434f2
+      ),
+      url("../../assets/project.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
