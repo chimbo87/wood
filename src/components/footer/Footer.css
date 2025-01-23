@@ -1,5 +1,6 @@
 #footer-page {
-  background-color: #882020;
+  /* background-color: #882020; */
+  background-image: linear-gradient(to top,#640606,#882020);
   margin-top: 20px;
   padding-top: 20px;
 }
