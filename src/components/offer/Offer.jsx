@@ -11,7 +11,7 @@ function Offer() {
   return (
     <div id="offer-container" className="container">
       <div class="row">
-        <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6 col-md-12">
           <div id="offer-card-box">
             <h5>Build Your Dreams</h5>
             <h1>Over 10 Years of Undefeated Successs</h1>
@@ -36,7 +36,7 @@ function Offer() {
             </button>
           </div>
         </div>
-        <div class="col-lg-6 col-md-4">
+        <div class="col-lg-6 col-md-12">
           <div id="offer-card">
             <div id="offer-inner-card">
               <div id="offer-inner-cardwrap">

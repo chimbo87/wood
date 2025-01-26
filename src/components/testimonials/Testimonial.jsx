@@ -64,7 +64,7 @@ function Testimonial() {
       <div id="testimony-top">
         <div id="testimony-top-card">
           <div class="row">
-            <div class="col-lg-6 col-md-4">
+            <div class="col-lg-6 col-md-12">
               <div id="testimony-top-innercard">
                 <h2>
                   We create innovative and sustainable construction solutions to
@@ -72,7 +72,7 @@ function Testimonial() {
                 </h2>
               </div>
             </div>
-            <div class="col-lg-6 col-md-4">
+            <div class="col-lg-6 col-md-12">
               <div id="testimony-top-innercardB">
                 <ul>
                   <li>

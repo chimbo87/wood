@@ -15,7 +15,7 @@ function Mission() {
     <div className="container" id="mission-container">
       <h2><span></span>What We Do</h2>
       <div class="row">
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div id="mission-card">
             <img src={building} alt="building" />
             <div id="mission-card-btn">
@@ -26,7 +26,7 @@ function Mission() {
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div id="mission-card">
             <img src={project} alt="project" />
             <div id="mission-card-btn">
@@ -37,7 +37,7 @@ function Mission() {
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div id="mission-card">
             <img src={painting} alt="building" />
             <div id="mission-card-btn">
@@ -48,7 +48,7 @@ function Mission() {
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div id="mission-card">
             <img src={decking} alt="building" />
             <div id="mission-card-btn">
@@ -59,7 +59,7 @@ function Mission() {
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div id="mission-card">
             <img src={renovation} alt="building" />
             <div id="mission-card-btn">
@@ -70,7 +70,7 @@ function Mission() {
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-4">
+        <div class="col-lg-4 col-md-12">
           <div id="mission-card">
             <img src={doorswindows} alt="building" />
             <div id="mission-card-btn">

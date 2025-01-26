@@ -19,7 +19,7 @@ function About() {
       <div className="container" id="about-page-box"></div>
       <div className="container">
         <div class="row">
-          <div class="col-lg-6 col-md-4">
+          <div class="col-lg-6 col-md-12">
             <div id="history-card">
               <h2>Who Are We ?</h2>
               <p>
@@ -48,7 +48,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div class="col-lg-6 col-md-4">
+          <div class="col-lg-6 col-md-12">
             <div id="history-cardB">
               <img src={aboutus} alt="aboutbanner" />
             </div>
@@ -59,7 +59,7 @@ function About() {
       <div className="container" id="about-team-card">
         <h2>Meet Our Team Of Experts</h2>
         <div class="row">
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div id="team-card">
               <img src={person01} alt="person" />
               <h6> Engineer</h6>
@@ -71,7 +71,7 @@ function About() {
               <p>James Doe</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div id="team-card">
               <img src={person02} alt="person" />
               <h6>Sales Mananger</h6>
@@ -83,7 +83,7 @@ function About() {
               <p>Jane Doe</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-4 col-md-12">
             <div id="team-card">
               <img src={person01} alt="person" />
               <h6>Marketing Manager</h6>
@@ -239,7 +239,7 @@ function About() {
       <div className="container" id="blogs-section">
         <h2>Blogs</h2>
         <div class="row">
-          <div class="col-md-lg col-md-4">
+          <div class="col-md-lg col-md-12">
             <div id="blog-card">
               <img src={blog02} alt="aboutbanner" />
               <h4>The Importance of Quality Carpentry in Home Renovations</h4>
@@ -253,7 +253,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div class="col-md-lg col-md-4">
+          <div class="col-md-lg col-md-12">
             <div id="blog-card">
               <img src={blog01} alt="aboutbanner" />
               <h4>How to Care for Your Custom Woodwork</h4>
@@ -266,7 +266,7 @@ function About() {
               </p>
             </div>
           </div>
-          <div class="col-md-lg col-md-4">
+          <div class="col-md-lg col-md-12">
             <div id="blog-card">
               <img src={blog03} alt="aboutbanner" />
               <h4>The Benefits of Bespoke Carpentry for Your Home</h4>
