@@ -173,7 +173,8 @@ margin-right: 10px;
     background-size: cover;
   }
   #testimony-top-innercard {
-    border-bottom: 1px solid antiquewhite;
+    border-bottom: 1px solid #faebd7;
+    margin-bottom: 12px;
   }
   #testimony-top-innercard h2 {
     text-align: center;
