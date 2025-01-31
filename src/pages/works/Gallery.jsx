@@ -141,7 +141,7 @@ function Gallery() {
       oldPrice: 380.0,
       category: "doors and windows",
       description:
-        "The Samsung S20 LCD delivers vibrant colors and sharp clarity, restoring your device’s display to its original brilliance with high-definition visuals and touch sensitivity.",
+        "We create custom, high-quality wooden designs that combine timeless elegance with modern performance. Whether you’re looking for classic, rustic, or contemporary styles, our expertly crafted windows and doors are built to last, offering superior insulation, durability, and aesthetic appeal. Let us help you elevate your home’s curb appeal and energy efficiency with our bespoke wooden solutions. Contact us today to bring your vision to life! 🪟🚪✨",
     },
     {
       id: 17,
