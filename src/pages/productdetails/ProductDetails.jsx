@@ -14,7 +14,7 @@ function ProductDetails() {
     return (
       <div className="container" id="product-details-box">
         <div id="product-details-headbtn">
-          <button onClick={() => navigate("/our-shop")}>
+          <button onClick={() => navigate("/our-works")}>
             <FaLongArrowAltLeft /> Back
           </button>
         </div>
@@ -40,7 +40,7 @@ function ProductDetails() {
   return (
     <div className="container" id="product-details-box">
       <div id="product-details-headbtn">
-        <button onClick={() => navigate("/our-shop")}>
+        <button onClick={() => navigate("/our-works")}>
           <FaLongArrowAltLeft /> Back
         </button>
       </div>
@@ -68,7 +68,8 @@ function ProductDetails() {
                   padding: "8px 12px",
                   cursor: "pointer",
                   zIndex: 1,
-                  width: "auto",
+                  width: "40px",
+                  height:"40px",
                 }}
               >
                 ‹
@@ -86,7 +87,8 @@ function ProductDetails() {
                   padding: "8px 12px",
                   cursor: "pointer",
                   zIndex: 1,
-                  width: "auto",
+                  width: "40px",
+                  height:"40px",
                 }}
               >
                 ›
@@ -160,18 +162,15 @@ function ProductDetails() {
 
         <p id="product-brand">{product.productName}</p>
         <div className="price-container">
-          {product.oldPrice && product.oldPrice > product.price && (
+          {/* {product.oldPrice && product.oldPrice > product.price && (
             <p id="product-old-price">Was ${product.oldPrice.toFixed(2)}</p>
           )}
-          <p id="product-price">${product.price.toFixed(2)}</p>
+          <p id="product-price">${product.price.toFixed(2)}</p> */}
         
         </div>
-        <small>{product.description}</small>
-        {/* <div className="product-meta">
-          <p><strong>Category:</strong> {product.category}</p>
-          <p><strong>Product ID:</strong> {product.id}</p>
-        </div> */}
-        <button>Order Now</button>
+        <small style={{margin:"5px"}}>{product.description}</small>
+      
+        <button>Get Quotation</button>
       </div>
     </div>
   );
